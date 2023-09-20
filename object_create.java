@@ -1,7 +1,6 @@
 // WRJP MAKE A CALCULATOR AND CREATE A OBJECTS WITH NON -STATIC METHOD
 package OOPS;
 
-
 class Calculator 
 {
     public void Addition() {
@@ -44,21 +43,18 @@ class Calculator
         Multplication();
         Modulus();
     }
-
 }
 
 public class object_create {
     public static void main(String[] args) {
             // CREATE MULTIPLE OBJECTS
-        //   new Calculator().Addition();
-        //   new Calculator().Subraction();
-        //   new Calculator().Division();
-        //   new Calculator().Multplication();
-        //   new Calculator().Modulus();
+          new Calculator().Addition();
+          new Calculator().Subraction();
+          new Calculator().Division();
+          new Calculator().Multplication();
+          new Calculator().Modulus();
 
-           // ARE ELSE CALL ONE METHOD / FUNCTIONS
-
+        // ARE ELSE CALL ONE METHOD / FUNCTIONS
            new Calculator().total();
     }
-
 }
